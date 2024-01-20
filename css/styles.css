@@ -493,20 +493,47 @@ position: fixed;
 top: 0;
 }
 
-.modal {
+.modal{
 width: 408px;
 min-height: 584px;
 border-radius: 4px;
-background: var(--DAIRY, #FCFCFC);
-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.20;
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-}
-.modal-close-btn {
-margin-left: auto;
+background: var(--DAIRY, #FCFCFC);
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 padding: 24px;
 }
+.modal-close-btn{
+display: flex;
+width: 24px;
+height: 24px;
+top: 24px;
+right: 24px;
+border-radius: 50%;
+margin-left: auto;
+position: absolute;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 0;
+}
+.modal-title{
+width: 360px;
+color: #2E2F42;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+top: 72px;
+}
+.modal-input{
+width: 100%;
+}
+
