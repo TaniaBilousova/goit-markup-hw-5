@@ -534,6 +534,29 @@ margin-bottom: 16px;
 top: 72px;
 }
 .modal-input{
+width: 360px;
+height: 58px;
 width: 100%;
+border-radius: 4px;
+top: 8px;
+}
+.modal-label{
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #8E8F99;
+display: block;
+margin-bottom: 4px;
+}
+.modal-input-wrap{
+position: relative;
+}
+.modal-icon{
+positin: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
 }
 
