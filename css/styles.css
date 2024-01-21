@@ -556,18 +556,22 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 top: 72px;
 }
+.modal-input-wrap{
+position: relative;
+}
 .modal-input{
-width: 360px;
 height: 40px;
 width: 100%;
 border-radius: 4px;
 top: 8px;
-border: 1px solid rgba(46, 47, 66, 0.4);
 background-color: transparent;
 padding-left: 38px;
 outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border-color: #4D5AE5;
+}
+.modal-input:focus{
+border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .modal-label{
 font-size: 12px;
@@ -579,16 +583,13 @@ color: #8E8F99;
 display: block;
 margin-bottom: 4px;
 }
-.modal-input-wrap{
-position: relative;
-}
 .modal-icon{
-left: 16px;
+fill: transparent;
 positin: absolute;
+left: 16px;
 top: 50%;
 transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 fill: #4D5AE5;
-
 }
 
