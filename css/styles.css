@@ -564,14 +564,12 @@ height: 40px;
 width: 100%;
 border-radius: 4px;
 top: 8px;
+border: 1px solid rgba(46, 47, 66, 0.4);
 background-color: transparent;
 padding-left: 38px;
 outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border-color: #4D5AE5;
-}
-.modal-input:focus{
-border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .modal-label{
 font-size: 12px;
@@ -584,8 +582,7 @@ display: block;
 margin-bottom: 4px;
 }
 .modal-icon{
-fill: transparent;
-positin: absolute;
+position: absolute;
 left: 16px;
 top: 50%;
 transform: translateY(-50%);
