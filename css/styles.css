@@ -653,6 +653,7 @@ letter-spacing: 0.04em;
 color: #8E8F99;
 display: block;
 margin-bottom: 4px;
+border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .modal-icon{
 position: absolute;
@@ -674,7 +675,6 @@ top: 8px;
 margin-bottom: 16px;
 padding-left: 16px;
 padding: 8px 16px;
-border: 1px solid rgba(46, 47, 66, 0.4);
 background-color: transparent;
 outline: transparent;
 resize: none;
