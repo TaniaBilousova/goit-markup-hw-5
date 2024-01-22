@@ -627,8 +627,9 @@ height: 16px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 2px;
 margin-right: 8px;
-ransition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+ fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 display: inline-flex;
 align-items: center;
 justify-content: center;
@@ -636,5 +637,4 @@ fill: transparent;
 }
 .privacy-policy{
 color: #4d5ae5;
-
 }
