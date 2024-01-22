@@ -484,6 +484,61 @@ background-color: #31d0aa;
 .media-link-icon{
 fill: #f4f4fd;
 }
+.footer-bottom{
+display: flex;
+justify-content: space-between;
+}
+.footer-title{
+width: 75px;
+height: 24px;
+margin-bottom: 16px;
+
+color: #FFFFFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.footer-input{
+width: 264px;
+height: 40px;
+background-color: transparent;
+padding-left: 16px;
+background: #2E2F42;
+border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFFFFF;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 2;
+letter-spacing: 0.04em;
+}
+.footer-form-btn{
+height: 40px;
+min-width: 165px;
+padding-left: 24px;
+padding-right: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+font-family: "Roboto", sans-serif;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+border-radius: 4px;
+border: none;
+margin-left: 24px;
+}
 /**--------------------------*/
  /**---------modal------------*/
  .backdrop {
